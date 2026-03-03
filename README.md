@@ -6,20 +6,20 @@ The agent processes user queries and responds using intelligent tools and APIs.
 # Project Structure
 ai-agent-project/
 │
-├── backend/                     # Flask Backend (API + AI Agent Logic)
-│   ├── app.py                   # Main Flask application
-│   ├── agent.py                 # AI Agent configuration & execution
-│   ├── tools.py                 # Custom tools used by the agent
-│   ├── requirements.txt         # Python dependencies
-│   └── .env                     # Environment variables (DO NOT PUSH)
+├── backend/ # Flask Backend (API + AI Agent Logic)
+│ ├── app.py # Main Flask application
+│ ├── agent.py # AI Agent configuration & execution
+│ ├── tools.py # Custom tools used by the agent
+│ ├── requirements.txt # Python dependencies
+│ └── .env # Environment variables (DO NOT PUSH)
 │
-└── frontend/                    # React Frontend (Chat UI)
-    ├── package.json             # Node dependencies & scripts
-    └── src/
-        ├── App.js               # Main React component
-        ├── index.js             # Entry point
-        └── components/
-            └── Chat.js          # Chat interface component
+└── frontend/ # React Frontend (Chat UI)
+├── package.json # Node dependencies & scripts
+└── src/
+├── App.js # Main React component
+├── index.js # Entry point
+└── components/
+└── Chat.js # Chat interface component
 
 
 # 🛠️ Tech Stack
