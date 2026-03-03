@@ -7,31 +7,55 @@ This project demonstrates how to build an intelligent chat system using LLM-base
 
 ## 📌 Project Overview
 
-This AI Agent allows users to:
+# 1️⃣ Root Folder
 
-- Send queries through a chat interface
-- Process requests using backend AI logic
-- Return intelligent responses in real time
-- Integrate custom tools for extended capabilities
-
-# Project Structure
 ai-agent-project/
-│
-├── backend/ # Flask Backend (API + AI Agent Logic)
-│ ├── app.py # Main Flask application
-│ ├── agent.py # AI Agent configuration & execution
-│ ├── tools.py # Custom tools used by the agent
-│ ├── requirements.txt # Python dependencies
-│ └── .env # Environment variables (DO NOT PUSH)
-│
-└── frontend/ # React Frontend (Chat UI)
-├── package.json # Node dependencies & scripts
-└── src/
-├── App.js # Main React component
-├── index.js # Entry point
-└── components/
-└── Chat.js # Chat interface component
+Main project directory containing backend and frontend.
 
+# 2️⃣ Backend (Flask – API + AI Agent Logic)
+
+backend/
+Contains all server-side logic.
+|
+app.py
+Main Flask application file. Handles API routes.
+|
+agent.py
+Configures and runs the AI agent.
+|
+tools.py
+Custom tools used by the AI agent.
+|
+requirements.txt
+List of Python dependencies.
+|
+.env
+Stores environment variables like API keys.
+⚠️ Do NOT upload this file to GitHub.
+
+# 3️⃣ Frontend (React – Chat UI)
+
+frontend/
+Contains React application.
+|
+package.json
+Manages Node.js dependencies and scripts.
+
+src/
+Main source folder.
+|
+App.js
+Root React component.
+|
+index.js
+Entry point of the React application.
+|
+components/
+Contains reusable UI components.
+|
+Chat.js
+Chat interface component for user interaction.
+            
 
 # 🛠️ Tech Stack
 🔹 Backend
