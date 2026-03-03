@@ -1,7 +1,18 @@
-# AI Agent Project
+# 🚀 AI Agent Project
 
- An end-to-end AI Agent application built using Flask (Backend) and React.js (Frontend).
-The agent processes user queries and responds using intelligent tools and APIs.
+An end-to-end AI Agent application built using Flask (Backend) and React.js (Frontend).  
+This project demonstrates how to build an intelligent chat system using LLM-based agent architecture.
+
+---
+
+## 📌 Project Overview
+
+This AI Agent allows users to:
+
+- Send queries through a chat interface
+- Process requests using backend AI logic
+- Return intelligent responses in real time
+- Integrate custom tools for extended capabilities
 
 # Project Structure
 ai-agent-project/
